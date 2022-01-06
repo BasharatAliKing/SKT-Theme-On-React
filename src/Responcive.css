@@ -116,6 +116,7 @@
         font-size: 25px;
     }
     #categories h1{
+        margin-top: 570px;
         font-size: 40px;
     }
     #categories h3{
@@ -125,8 +126,15 @@
         top: 550px;
         height: 590%;
     }
+    #collection {
+        text-align: center;
+    }
     #collection h1{
         font-size: 40px;
+    }
+    #collection .card{
+        margin-top: 30px;
+        margin-left: 20px;       
     }
     #collection .card h4{
         font-size: 24px;
@@ -139,16 +147,21 @@
         width: 40%;
     }
     #jewellery h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     #jewellery #bg-pic{
         width: 100%;
+        display: none;
+    }
+    #jewellery .card h3{
+        font-size: 25px;
+        font-weight: bold;
     }
     #antique {
         margin-top: 600px;
     }
     #antique h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
     #antique h3{
         margin-top: 20px;
@@ -192,7 +205,7 @@
         padding: 0px;
     }
     #platinium h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     #platinium p {
         margin-top: 20px;
@@ -210,4 +223,5 @@
     #whats p {
         font-size: 20px;
     }
+
 }
