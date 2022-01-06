@@ -123,8 +123,8 @@
         font-size: 18px;
     }
     #collection .container .row::after {
-        top: 210%;
-    height: 397%;
+        top: 480%;
+        height: 472%;
     }
     #collection {
         text-align: center;
