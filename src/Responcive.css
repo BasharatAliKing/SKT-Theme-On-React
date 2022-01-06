@@ -124,7 +124,7 @@
     }
     #collection .container .row::after {
         top: 650px;
-        height: 590%;
+        height: 500%;
     }
     #collection {
         text-align: center;
@@ -164,7 +164,7 @@
         font-weight: bold;
     }
     #antique {
-        margin-top: 600px;
+        margin-top: 100px;
     }
     #antique h2 {
         font-size: 35px;
@@ -184,6 +184,9 @@
     #deal .row {
         margin-top: 30px;
         padding: 0px;
+    }
+    #deal .date {
+       margin-left: 5px;
     }
     #featured h5{
         font-size: 25px;
