@@ -1,0 +1,213 @@
+@media(max-width:992px){
+    #header ul{
+        left: 10px;
+    }
+    #home {
+        padding-top: 20px;
+    }
+    #categories h1 {
+        margin-top: 380px;
+    }
+    #jewellery h1 {
+      
+        margin: 0px 120px;
+    }
+    #jewellery #bg-pic {
+        height: 45%;
+    }
+    #antique h2 {
+        font-size: 35px;
+    }
+    #antique h3{
+        font-size: 20px;
+    }
+    #antique p{
+        font-size: 17px;
+    }
+    #deal .date {
+        padding: 10px; 
+    }
+    #shipping .shop {
+        padding: 80px 10px;
+    }
+    
+#shipping .product {
+    padding: 93px 25px;
+}
+#shipping .list {
+    padding: 80px 11px;
+}
+#shipping .btn {
+   margin-left: 49px;
+}
+#platinium .btn {
+     width: 25%;
+}
+#whats .btn {
+ padding: 6px 20px;
+   }
+   #footer h1{
+       font-size: 25px;
+   }
+}
+@media(max-width:776px){
+    #categories img{
+        margin-top: 20px;
+    }
+    #categories h1 {
+        margin-top: 489px;
+    }
+    #collection .container .row::after {
+        top: 550px;
+        height: 190%;
+    }
+    #collection .card {
+        margin-top: 30px;
+    }
+    #jewellery h1{
+        margin: 0px;
+    }
+    #antique{
+        margin-top: 250px;
+    }
+    #deal .row{
+        margin-top: 30px;
+        padding: 20px;
+    }
+    #shipping .btn {
+        margin-left: 64px;
+    }
+    #silver img{
+        padding: 100px;
+    }
+    #platinium h1 {
+        font-size: 60px;
+    }
+    #platinium .btn {
+        width: 33%;
+    }
+    #whats .btn {
+        margin-top: 30px;
+        padding: 6px 20px;
+    }
+    #feature .col-sm-6{
+        margin-top: 20px;
+    }
+    #footer h1{
+        font-size: 30px
+    }
+    #footer .item {
+        margin-top: 0px;
+    }
+    
+}
+@media(max-width:576px){
+    h1{
+        font-size: 40px;
+    }
+    #home h1{
+        margin-top: 70px;
+        font-size: 40px;
+    }
+    #home h2{
+        font-size: 33px;
+    }
+    #home h6{
+        font-size: 25px;
+    }
+    #categories h1{
+        font-size: 40px;
+    }
+    #categories h3{
+        font-size: 18px;
+    }
+    #collection .container .row::after {
+        top: 550px;
+        height: 590%;
+    }
+    #collection h1{
+        font-size: 40px;
+    }
+    #collection .card h4{
+        font-size: 24px;
+        font-weight: bold;
+    } 
+    #collection .card p{
+        font-size: 22px;
+    }
+    #collection .btn {
+        width: 40%;
+    }
+    #jewellery h1{
+        font-size: 40px;
+    }
+    #jewellery #bg-pic{
+        width: 100%;
+    }
+    #antique {
+        margin-top: 600px;
+    }
+    #antique h2 {
+        font-size: 40px;
+    }
+    #antique h3{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    #antique p{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    #deal h1 {
+        margin-top: 80px;
+        font-size: 40px;
+    }
+    #deal .row {
+        margin-top: 30px;
+        padding: 0px;
+    }
+    #featured h5{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #featured h6{
+        font-size: 22px;
+    }
+    #shipping h1 {
+        font-size: 40px;
+    }
+    #shipping h4{
+        font-size: 25px;
+    }
+    #shipping .btn {
+        margin-left: 120px;
+    }
+    #shipping .col-sm-6{
+        margin-top: 20px;
+    }
+    #shipping h2{
+        font-size: 33px;
+    }
+    #silver  img{
+        padding: 0px;
+    }
+    #platinium h1 {
+        font-size: 40px;
+    }
+    #platinium p {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    #platinium .btn {
+        width: 50%;
+    }
+    #latest h1 {
+        font-size: 40px;
+    }
+    #whats h1 {
+        font-size: 40px;
+    }
+    #whats p {
+        font-size: 20px;
+    }
+}

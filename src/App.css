@@ -1,38 +1,453 @@
-.App {
-  text-align: center;
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+h1{
+    font-weight: bolder;
+}
+#header ul li a{
+    font-size: 22px;
+    color: rgb(73, 73, 73);
+}
+#header ul li a:hover{
+    color: orange;
+}
+#header ul{
+    position: absolute;
+    right: 10px;
+}
+#header ul li{
+    margin-left: 20px;
+}
+#home{
+   position: absolute;
+   top: 100;
+   left: 0;
+   
+    box-shadow: 2px 2px 2px 2px white;
+    animation:  king  5s  infinite  linear;
+    background: url('/public/slider1.jpg')no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes king{
+   0%{
+        background: url('/public/slider1.jpg')no-repeat center center/cover;
+    }
+    33%{
+        background: url('/public/slider2.jpg')no-repeat center center/cover;
+    }
+    66%{
+        background: url('/public/slider3.jpg')no-repeat center center/cover;
+    }
+    100%{
+        background: url('/public/slider1.jpg')no-repeat center center/cover;
+    }
+   
+}
+#home{
+    padding-top: 200px;
+}
+#home h1{
+    font-size: 100px;
+}
+#home h6{
+    margin-top: 40px;
+    font-size: 18px;
+}
+#home h6::after{
+content: " ";
+margin-top: 20px;
+display: block;
+width: 50px;
+height: 2px;
+background-color: black;
+}
+#categories h1{
+    margin-top: 700px;
+}
+#categories h3{
+    position: absolute;
+   background-color: white;
+   padding: 10px 20px;
+    z-index: 2;
+    bottom: -8px;
+    
+    margin-left: 0px;
+}
+#collection{
+    text-align: center;
+}
+#collection .container .row::after{
+    content: '';
+    position: absolute;
+    top: 1337px;
+    left: 12%;
+    width: 74%;
+    height: 143%;
+    background-color: #fff9f6;
+    z-index: -1;
+    border-radius: 10px;
+}
+#collection h1{
+    padding-top: 40px;
+    font-size: 60px;
+}
+#collection .card{
+    border: none;
+}
+#collection .btn{
+
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(105, 90, 92);
+    color: #FFFFFF;
+  
+   margin: 0px auto;
+   margin-top: 100px;
+   text-align: center;
+}
+#jewellery{
+    text-align: center;
+    margin-top: 100px;
+}
+#jewellery h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 330px;
+}
+#jewellery .card{
+    text-align: start;
+    border: none;
+}
+#jewellery h3::before{
+    content:" ";
+    display: block;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: brown;
+}
+#jewellery h5{
+    letter-spacing: 2px;
+    color:#5c5a5a;
+}
+#jewellery h6{
+    color: #9f9f9f;
+    margin-top: 20px;
+}
+#jewellery #bg-pic{
+    background: url('/public/collection-ring.jpg')no-repeat center center/cover;
+    width: 33%;
+    height: 50%;
+}
+#jewellery .card img{
+    width: 70%;
+    padding: 30px;
+    align-items: center;
+    margin-left: 30px;
+}
+#jewellery .card-body{
+     margin-left: 20px;
+}
+#jewellery h3:hover{
+color: orange;
+}
+#jewellery h5:hover{
+color: orange;
+}
+#antique img{
+    margin-top: -30px;
+   height: 110%;
+}
+#antique{
+    margin-top: 120px;
+    background-color: transparent;
+    background-image: linear-gradient(
+90deg, #EBCFBB 25%, #D3B293 100%);
+}
+#antique .text{
+  
+    padding: 80px 40px;
+    color: white;
+}
+#antique h2{
+    margin-top: 40px;
+    font-size: 50px;
+}
+#antique p{
+    font-size: 18px;
+}
+#antique button{
+    font-size: 20px;
+    padding: 10px 30px ;
+    margin-top: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+#antique button:hover{
+    background-color: black;
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#deal{
+    background-color: #FDF7F4;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#deal .date{
+    margin-left: -10px;
+    padding: 60px;
+    background-color: white;
+    color: black;
+}
+#deal h1{
+    margin-top: 80px;
+    font-size: 50px;
+}
+#deal h1::after{
+    content:" ";
+    margin-top: 20px;
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+
+#featured{
+    background-color: #FDF7F4;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+#featured .card{
+    border: none;
+}
+#featured h5:hover{
+    color:orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#shipping{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+  
+}
+#shipping .container .free{
+    background: url('/public/shipping-banner-1.jpg')no-repeat center center/cover;
+    padding: 40px 0px ;
+}
+#shipping h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+#shipping h3{
+    font-size: 25px;
+}
+#shipping p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#shipping .shop{
+    background: url('/public/shipping-banner-2.jpg')no-repeat center center/cover;
+    padding: 80px 60px;
+}
+#shipping .product{
+    background: url('/public/shipping-banner-3.jpg')no-repeat center center/cover;
+    padding: 93px 60px;
+}
+#shipping .list{
+    background: url('/public/shipping-banner-4.jpg')no-repeat center center/cover;
+    padding: 80px 60px;
+}
+#shipping p{
+    margin: 0px;
+}
+#shipping .btn{
+        padding: 10px 20px;
+        font-size: 20px;
+        position: absolute;
+        z-index: 1;
+        margin-top: -50px;
+        margin-left: 122px;
+        background-color: white;
+}
+
+#silver{
+    margin-top: 80px;
+}
+#silver .silver{
+    background-color: #FDF7F4;
+    padding: 100px 40px;
+    padding-left: 60px;
+}
+#silver .pendent{
+    background-color: #fae3d8;
+    padding: 100px 40px;
+    padding-left: 60px;
+}
+#silver h5{
+    color: rgb(253, 187, 101);
+}
+#silver h1{
+    font-size: 40px;
+}
+#silver .btn{
+    font-size: 20px;
+    padding: 10px 30px ;
+    margin-top: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+#silver .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#platinium{
+    background: url('/public/platinum-img.jpg')no-repeat center center/cover;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    color: white;
+    text-align: center;
+}
+#platinium h1{
+    font-size: 80px;
+}
+#platinium p{
+    font-size: 25px;
+}
+#platinium .btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+ font-size: 22px;
+ border-radius: 60px;
+ width: 18%;
+ margin-top: 20px;
+}
+
+#latest{ 
+    margin-top: 80px;
+}
+#latest h1{
+    font-size: 60px;
+}
+#latest .btn-1{
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+  margin-top: -55px;
+  margin-left: 20px;
+}
+#latest h5{
+    margin-top: 40px;
+    line-height: 1.3;
+}
+#latest .btn{
+    background-color: rgb(245, 196, 131);
+    color: white;
+    font-size: 22px;
+    padding: 10px 30px;
+    margin-top: 20px;
+   
+}
+#latest .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#whats{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #FDF7F4;
+   padding-top: 40px;
+   padding-bottom: 100px;
+}
+#whats h1{
+    font-size: 50px;
+}
+#whats p{
+    font-size: 22px;
+}
+#whats .form{
+    background-color: white;
+    padding: 40px;
+    border-radius: 100px;
+}
+#whats input{
+    border: none;
+    font-size: 22px;
+}
+#whats input:active{
+    border:none;
+    outline: none;
+}
+#whats .btn{
+    background-color: rgb(245, 196, 131);
+    color: black;
+    padding: 6px 30px;
+    font-size: 22px;
+    border-radius: 40px;
+}
+#whats .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#feature  {
+  
+   
+}
+#feature h1{
+    font-size: 22px;
+    margin-left: -50px;
+}
+#feature .fea{
+    padding: 80px 40px;
+    background-color: #fbf0ea;
+}
+
+#footer  ul li a {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+}
+#footer  ul li a i{
+    font-size: 14px;
+    margin-right: 5px;
+}
+#footer ul li a:hover{
+    color: orange;
+}
+#footer .item{
+    margin-top: 100px;
+}
+#footer .icons{
+       font-size: 30px;
+        margin-top: 30px;
+}
+#footer .icons i{
+    margin-left: 20px;
+}
+#footer p{
+ font-size: 22px;
+}
+#footer .icons i:hover{
+    color: orange;
 }
