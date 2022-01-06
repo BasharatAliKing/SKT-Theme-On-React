@@ -123,7 +123,7 @@
         font-size: 18px;
     }
     #collection .container .row::after {
-        top: 410%;
+        top: 310%;
     height: 397%;
     }
     #collection {
@@ -231,6 +231,9 @@
     }
     #whats p {
         font-size: 20px;
+    }
+    #latest .card{
+        margin-left:30px ;
     }
 
 }
